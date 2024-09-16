@@ -12,7 +12,7 @@ workflows:
         BUNDLE_ID: "com.BassMemoChampionate"
         XCODE_WORKSPACE: "Bass Memo Champ.xcworkspace" # <-- Put the name of your Xcode workspace here
         XCODE_SCHEME: "Bass Memo Champ" # <-- Put the name of your Xcode scheme here
-        APP_STORE_APPLE_ID: 6670210762
+        APP_STORE_APPLE_ID: 6689520255
       xcode: 15.3
     scripts:
       - name: Set up provisioning profiles settings on Xcode project
