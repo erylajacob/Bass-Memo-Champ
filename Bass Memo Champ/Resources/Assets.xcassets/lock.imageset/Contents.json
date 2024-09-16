@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "maryna2_cartoon_one_lock_bright_gold_color_white_background_a681bcab-fe31-4081-b1ba-b9c303c4b70e 4.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "maryna2_cartoon_one_lock_bright_gold_color_white_background_a681bcab-fe31-4081-b1ba-b9c303c4b70e 4@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "maryna2_cartoon_one_lock_bright_gold_color_white_background_a681bcab-fe31-4081-b1ba-b9c303c4b70e 4@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
