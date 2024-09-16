@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyDOE-Uz0I8SfVjhslRLhT29-kPk9tvB06c</string>
+	<string>AIzaSyBGKIbYlGxvf85PFrgnUb4OXD-0KvEctVk</string>
 	<key>GCM_SENDER_ID</key>
-	<string>69732737094</string>
+	<string>977095971885</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.Bass-Memo-Champ</string>
+	<string>com.BassMemoChamp</string>
 	<key>PROJECT_ID</key>
-	<string>test-bb29b</string>
+	<string>bassmemochamp</string>
 	<key>STORAGE_BUCKET</key>
-	<string>test-bb29b.appspot.com</string>
+	<string>bassmemochamp.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:69732737094:ios:a06418db4b92a902836a47</string>
+	<string>1:977095971885:ios:a597088861380dba1894a4</string>
 </dict>
 </plist>

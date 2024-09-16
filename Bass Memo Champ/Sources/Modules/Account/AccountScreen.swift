@@ -69,6 +69,7 @@ struct AccountScreen: View {
                         primaryButton: .cancel(),
                         secondaryButton: .destructive(Text("Delete"), action: {
                             viewModel.deleteAccountButtonClicked()
+                            dismiss()
                         })
                     )
                 }

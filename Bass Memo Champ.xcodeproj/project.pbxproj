@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		365AE0FB2C98669E003ADE8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 365AE0FA2C98669D003ADE8A /* GoogleService-Info.plist */; };
 		36C0DBEC2C8F40E900F12269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0DBEB2C8F40E900F12269 /* AppDelegate.swift */; };
 		36C0DBEE2C8F40E900F12269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0DBED2C8F40E900F12269 /* SceneDelegate.swift */; };
 		36C0DBF02C8F40E900F12269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0DBEF2C8F40E900F12269 /* ViewController.swift */; };
@@ -59,7 +60,6 @@
 		36C0DC782C90B33F00F12269 /* RatingItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0DC762C90B33F00F12269 /* RatingItemViewModel.swift */; };
 		36C0DC7D2C91C52200F12269 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0DC7C2C91C52200F12269 /* CardView.swift */; };
 		36C0DC7F2C91C52F00F12269 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0DC7E2C91C52F00F12269 /* CardViewModel.swift */; };
-		36C0DCB02C92CCF200F12269 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36C0DCAF2C92CCF200F12269 /* GoogleService-Info.plist */; };
 		36C0DCB92C92DFBC00F12269 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 36C0DCB82C92DFBC00F12269 /* RealmSwift */; };
 		36C0DCBB2C92E6A600F12269 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0DCBA2C92E6A600F12269 /* OnboardingViewModel.swift */; };
 		36C0DCBE2C92F0B900F12269 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 36C0DCBD2C92F0B900F12269 /* FirebaseAuth */; };
@@ -86,6 +86,7 @@
 
 /* Begin PBXFileReference section */
 		1F5F5539B24C7369E2D0A446 /* Pods_Bass_Memo_Champ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bass_Memo_Champ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		365AE0FA2C98669D003ADE8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		36C0DBE82C8F40E900F12269 /* Bass Memo Champ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bass Memo Champ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C0DBEB2C8F40E900F12269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C0DBED2C8F40E900F12269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,7 +141,6 @@
 		36C0DC762C90B33F00F12269 /* RatingItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingItemViewModel.swift; sourceTree = "<group>"; };
 		36C0DC7C2C91C52200F12269 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		36C0DC7E2C91C52F00F12269 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
-		36C0DCAF2C92CCF200F12269 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		36C0DCBA2C92E6A600F12269 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		7C56380B3A3EC10168A3A8C6 /* Pods-Bass Memo Champ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bass Memo Champ.release.xcconfig"; path = "Target Support Files/Pods-Bass Memo Champ/Pods-Bass Memo Champ.release.xcconfig"; sourceTree = "<group>"; };
 		8922DF04E039745960B223BB /* Pods-Bass Memo Champ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bass Memo Champ.debug.xcconfig"; path = "Target Support Files/Pods-Bass Memo Champ/Pods-Bass Memo Champ.debug.xcconfig"; sourceTree = "<group>"; };
@@ -206,7 +206,7 @@
 		36C0DC002C8F410600F12269 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				36C0DCAF2C92CCF200F12269 /* GoogleService-Info.plist */,
+				365AE0FA2C98669D003ADE8A /* GoogleService-Info.plist */,
 				36C0DBF12C8F40E900F12269 /* Main.storyboard */,
 				36C0DBF42C8F40EE00F12269 /* Assets.xcassets */,
 				36C0DBF62C8F40EE00F12269 /* LaunchScreen.storyboard */,
@@ -571,8 +571,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				365AE0FB2C98669E003ADE8A /* GoogleService-Info.plist in Resources */,
 				36C0DBF82C8F40EE00F12269 /* LaunchScreen.storyboard in Resources */,
-				36C0DCB02C92CCF200F12269 /* GoogleService-Info.plist in Resources */,
 				36C0DBF52C8F40EE00F12269 /* Assets.xcassets in Resources */,
 				36C0DBF32C8F40E900F12269 /* Main.storyboard in Resources */,
 			);
@@ -810,9 +810,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Y2996WT57A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bass Memo Champ/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -826,7 +827,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Bass-Memo-Champ";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BassMemoChamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -845,9 +846,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Y2996WT57A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bass Memo Champ/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -861,7 +863,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Bass-Memo-Champ";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BassMemoChamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
