@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		365AE0FB2C98669E003ADE8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 365AE0FA2C98669D003ADE8A /* GoogleService-Info.plist */; };
+		365AE0FD2C986FA3003ADE8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 365AE0FC2C986FA3003ADE8A /* GoogleService-Info.plist */; };
 		36C0DBEC2C8F40E900F12269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0DBEB2C8F40E900F12269 /* AppDelegate.swift */; };
 		36C0DBEE2C8F40E900F12269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0DBED2C8F40E900F12269 /* SceneDelegate.swift */; };
 		36C0DBF02C8F40E900F12269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C0DBEF2C8F40E900F12269 /* ViewController.swift */; };
@@ -86,7 +86,7 @@
 
 /* Begin PBXFileReference section */
 		1F5F5539B24C7369E2D0A446 /* Pods_Bass_Memo_Champ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bass_Memo_Champ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		365AE0FA2C98669D003ADE8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		365AE0FC2C986FA3003ADE8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		36C0DBE82C8F40E900F12269 /* Bass Memo Champ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bass Memo Champ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C0DBEB2C8F40E900F12269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36C0DBED2C8F40E900F12269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -206,7 +206,7 @@
 		36C0DC002C8F410600F12269 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				365AE0FA2C98669D003ADE8A /* GoogleService-Info.plist */,
+				365AE0FC2C986FA3003ADE8A /* GoogleService-Info.plist */,
 				36C0DBF12C8F40E900F12269 /* Main.storyboard */,
 				36C0DBF42C8F40EE00F12269 /* Assets.xcassets */,
 				36C0DBF62C8F40EE00F12269 /* LaunchScreen.storyboard */,
@@ -571,10 +571,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				365AE0FB2C98669E003ADE8A /* GoogleService-Info.plist in Resources */,
 				36C0DBF82C8F40EE00F12269 /* LaunchScreen.storyboard in Resources */,
 				36C0DBF52C8F40EE00F12269 /* Assets.xcassets in Resources */,
 				36C0DBF32C8F40E900F12269 /* Main.storyboard in Resources */,
+				365AE0FD2C986FA3003ADE8A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,7 +827,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BassMemoChamp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BassMemoChampionate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -863,7 +863,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BassMemoChamp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BassMemoChampionate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
